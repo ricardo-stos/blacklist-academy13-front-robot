@@ -19,7 +19,7 @@ ${Botão-Voltar-Primeira-Página}     //button[@id='firstIndexButton']
 
 *** Keywords ***
 Abrir Navegador
-    Open Browser    ${URL}    Firefox
+    Open Browser    ${URL}   headlessFirefox 
     Maximize Browser Window
 
 Fechar Navegador
